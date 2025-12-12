@@ -1,0 +1,26 @@
+<?php
+
+
+/**
+ * @file
+ * Hook implementations for mycustom module.
+ */
+use Drupal\Core\Form\FormStateInterface;
+
+/**
+ * Implements hook_form_alter().
+ */
+function mycustom_form_alter(&$form, FormStateInterface &$form_state, $form_id) {
+
+  // we use block  to store highlight,leader,pillar,value data, and use info base field as the data title.
+  //we  change the "Block description" to 'Title', change "A brief description of your block." to ""
+  if($form_id == 'block_content_highlight_form' || 
+     $form_id == 'block_content_leader_form' || 
+	 $form_id == 'block_content_pillar_form' || 
+	 $form_id == 'block_content_value_form'){
+       //\Drupal::messenger()->addMessage(var_export( $form['info'], true));
+       $form['info']['widget'][0]['value']['#title'] = 'Title';
+	   $form['info']['widget'][0]['value']['#description'] = '';	  
+  
+  }  
+}

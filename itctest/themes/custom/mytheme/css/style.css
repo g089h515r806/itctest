@@ -1,0 +1,164 @@
+/**
+ * @file
+ * Subtheme specific CSS.
+ */
+#navbar-main .navbar-brand{
+	padding:10px 20px;
+	margin-right:100px;
+}
+
+#navbar-main .nav-item{
+	padding:10px 20px;
+	font-size:18px;
+}
+
+#block-mytheme-languagedropdownswitcher{
+	margin-left:40px;
+}
+.paragraph-wrapper{
+	clear:both;
+	margin:10px 0px;
+} 
+
+.paragraph-wrapper .paragraph{
+	padding:30px;
+}
+
+.paragraph-wrapper .paragraph h1{
+	text-align:center;
+	line-height:36px;
+	height:36px;
+	font-weight:700;
+	font-size:30px;
+}
+
+.paragraph-wrapper .paragraph .field--name-field-description p{
+	line-height:30px;
+	font-size:16px;
+	text-align:center;
+}
+
+
+.paragraph-wrapper .paragraph--id--1 p{
+	padding:20px 100px;
+	text-align:center;
+}
+
+.paragraph-wrapper  .paragraph--id--2 p{
+	color:#ffffff;
+	text-align:center;
+	padding:30px;
+}
+
+.paragraph-wrapper .paragraph--type--values-section .block-content--type-value{
+	background-color:#ffffff;
+	padding:20px;
+	margin:20px;
+}
+.paragraph-wrapper .paragraph--type--values-section .block-content--type-value p{ 
+    text-align: start;
+}
+
+.paragraph-wrapper .paragraph--type--values-section .block-content--type-value h2{ 
+	line-height:32px;
+	font-size:20px;
+	margin-bottom:10px;
+    font-weight:400;
+}
+.paragraph-wrapper .paragraph .field--name-field-highlight{
+
+    display: flex;
+    flex-wrap: wrap; 
+    justify-content: flex-start; 
+}
+
+.paragraph-wrapper .paragraph .field--name-field-highlight > .field__item {
+   padding:15px;
+   width:47%; 
+   background-color:#F3F3F3;
+   margin:10px;
+}
+
+
+.paragraph-wrapper .paragraph .field--name-field-highlight > .field__item .field--name-field-image{
+	width:100%;
+	height:300px;
+	text-align:center;
+   display: flex;
+  justify-content: center;
+  align-items: center;	
+}
+
+.paragraph-wrapper .paragraph .field--name-field-highlight > .field__item .field--name-field-image img{
+	max-width:80%;
+	height:auto;
+}
+
+.paragraph-wrapper .paragraph .field--name-field-highlight > .field__item  h3{
+	padding:20px 40px;
+	font-size:20px;
+	line-height:32px;
+
+}
+
+.paragraph--type--leadership-section .carousel-control-prev span,
+.paragraph--type--leadership-section .carousel-control-next span{
+	
+	background-color:red;
+}
+
+.paragraph--type--leadership-section .leader-item{
+	padding:30px 150px;
+}
+
+.paragraph-wrapper .paragraph .leader-item .field--name-field-description p {
+	text-align:start;
+	font-style: italic;
+}
+
+.paragraph--type--leadership-section .leader-item .field--name-field-image img{
+   border-radius: 15px;
+   overflow: hidden; 
+}
+
+.paragraph--type--leadership-section .leader-item .field--name-field-job{
+	margin: 5px 0 20px;
+    font-size: 20px;
+    line-height: 30px;
+}
+
+.paragraph-wrapper .paragraph .leader-item .field--name-field-description h1{
+    color:#F3F3F3;
+	height: 65px ;
+    line-height: 65px ;
+    font-size: 60px;
+    font-weight: 700;
+    text-align: left;
+}
+
+.paragraph-wrapper .paragraph .leader-item .field--name-field-description h1:first-of-type {
+    margin-top: 30px;
+}
+
+.paragraph-wrapper .paragraph .field--name-field-pillars{
+
+    display: flex;
+    flex-wrap: nowrap; 
+
+}
+
+.paragraph-wrapper .paragraph .field--name-field-pillars > .field__item {
+   padding:15px;
+   background-color:#F3F3F3;
+   margin:10px;
+   width:23%;
+}
+.paragraph-wrapper .paragraph .field--name-field-pillars > .field__item .field--type-image{
+	float:none;
+}
+
+.paragraph-wrapper .paragraph .field--name-field-pillars > .field__item .field--name-block-title{
+	font-size:20px;
+	margin-top:20px;
+	padding:10px;
+}
